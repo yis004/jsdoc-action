@@ -3,5 +3,5 @@ if [ ! -f $1 ]; then
     echo "File $1 could not be found!"
 fi
 
-npm install -g jsdoc
+RUN npm install -g jsdoc
 jsdoc -r $1
